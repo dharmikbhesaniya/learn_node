@@ -13,6 +13,7 @@
   "author": "dharmik",
   "license": "ISC",
   "dependencies": {
+    "body-parser": "^1.20.1",
     "chalk": "^5.1.2",
     "color": "^4.2.3",
     "colors": "^1.4.0",

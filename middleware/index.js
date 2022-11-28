@@ -1,6 +1,8 @@
 const express = require("express");
 const app = express();
 
+// application level middleware
+
 const reqfile = (req, res, next) => {
     console.log("reqfile");
     if (!req.query.age) {
