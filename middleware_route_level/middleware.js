@@ -8,5 +8,14 @@ const reqfile = (req, res, next) => {
         next();
     }
 };
+const info = (req, res, next) => {
+    console.log("reqfile");
+    if (!req.query.name) {
+        res.send("please provide name");
+    } else {
+        next();
+    }
+};
 
 module.exports = reqfile;
+module.exports = info;
