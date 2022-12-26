@@ -17,6 +17,4 @@ app.get("/", (req, res) => {
 
 app.use("/", route);
 
-route.get;
-
 app.listen(2000);
